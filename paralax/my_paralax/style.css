@@ -31,6 +31,7 @@
     .content {
         max-width: 640px;
         margin: 0 auto;
+        background-color: lavender;
     }
 
     .content article {
@@ -101,7 +102,7 @@
         transform: translateX(20px);
         transition: transform 0.3s;
         transition-timing-function: ease-in-out;
-      
+
     }
 
     .figure figure.is-showing {
