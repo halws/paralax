@@ -1,0 +1,199 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1, p {
+        margin: 20px 0;
+    }
+
+    h1 {
+        color: #ccc;
+        font-weight: 300;
+        font-size: 56px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    }
+
+    .content {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .content article {
+        padding: 100px 0;
+        max-width: 640px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    /* paralax///////////////////// */
+
+    header.bird-box {
+        position: relative;
+        height: 600px;
+        background: url(../images/bird-bg.jpg) top center;
+        background-size: auto 600px;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100%;
+        background: url(../images/black-bird-logo.svg) center no-repeat;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+    }
+
+    .fore-bird {
+        width: 960px;
+        height: 733px;
+        background-color: rgb(255, 51, 153, 0.4);
+        background: url(../images/fore-bird.png) right bottom no-repeat;
+        position: absolute;
+        left: 50%;
+        top: 370px;
+        margin-left: -480px;
+    }
+
+    .back-bird {
+        height: 298px;
+        width: 960px;
+        background: url(../images/back-bird.png) top left no-repeat;
+        position: absolute;
+        left: 50%;
+        margin-left: -480px;
+    }
+
+    .clothes-pics {
+        margin: 0 auto;
+        max-width: 640px;
+    }
+
+    .figure {
+        margin-bottom: 20px;
+        position: relative;
+
+    }
+
+    .figure figure {
+        display: inline-block;
+        max-width: 30%;
+        opacity: 0;
+        transform: translateX(20px);
+        transition: transform 0.3s;
+        transition-timing-function: ease-in-out;
+      
+    }
+
+    .figure figure.is-showing {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+figcaption{
+
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+
+  background: black;
+  color: white;
+  padding: 2px 8px;
+}
+    .figure img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+    .figure figure {
+        margin-right: 5%;
+    }
+
+    .figure figure:last-child {
+        margin-right: 0;
+    }
+
+    .large-window {
+        height: 540px;
+        background: url(../images/model2.jpg) no-repeat;
+        background-position: center top;
+        background-size: auto;
+        background-attachment: fixed;
+        border-radius: 50%;
+    }
+    /*FORM///////////////////////////////////////////////////////*/
+    form{
+      margin-top: 100px;
+    }
+ .content table{
+  margin: 0 auto;
+  max-width: 640px;
+}
+    input[type=text], select {
+        width: 100%;
+        border: 2px solid rgb(102, 204, 255);
+        opacity: 0.6;
+        font-family: "Roboto";
+        color: black;
+        font-weight: bold;
+        text-decoration-color: black;
+        height: 35px;
+        margin-top: 1%;
+    }
+
+     ::-webkit-input-placeholder {
+        color: black;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+     ::-moz-placeholder {
+        color: black;
+        font-weight: bold;
+        opacity: 1;
+        padding-left: 5px;
+    }
+
+     ::-moz-placeholder {
+        color: black;
+        font-weight: bold;
+        opacity: 1;
+        padding-left: 5px;
+    }
+
+     ::-ms-input-placeholder {
+        color: black;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+    input[type=submit] {
+        height: 35px;
+        margin-top: 1%;
+        margin: 5% 0% 0% 0%;
+        width: 46%!important;
+        border-style: none;
+        background-color: black;
+        color: #fff;
+        z-index: 17;
+    }
